@@ -16,5 +16,7 @@ original_string_1 = "Polytechnic"
 original_string_2 = "University"
 
 # Display result
+print("Original word: ", original_string_1)
+print("Original word: ", original_string_2)
 
 # Outputs
