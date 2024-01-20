@@ -20,3 +20,5 @@ print("Original word: ", original_string_1)
 print("Original word: ", original_string_2)
 
 # Outputs
+print(remove_chars("Polytechnic", 4))
+print(remove_chars("University", 3))
