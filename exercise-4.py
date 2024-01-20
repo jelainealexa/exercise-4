@@ -2,10 +2,13 @@
 
 # Def function
 def remove_chars(string, n):
-
-# Check if n is less than the length of the string
-
-# Use string slicing
+    # Check if n is less than the length of the string
+    if n < len(string):
+        # Use string slicing
+        result = string[n:]
+        return result
+    else:
+        return None
 
 # Define original string
 
