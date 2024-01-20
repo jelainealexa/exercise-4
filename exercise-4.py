@@ -15,10 +15,14 @@ def remove_chars(string, n):
 original_string_1 = "Polytechnic"
 original_string_2 = "University"
 
-# Display result
+# Display result of first string
 print("Original word: ", original_string_1)
+
+# Display result of second string
 print("Original word: ", original_string_2)
 
-# Outputs
+# Output: technic
 print(remove_chars("Polytechnic", 4))
+
+# Output: versity
 print(remove_chars("University", 3))
