@@ -8,9 +8,12 @@ def remove_chars(string, n):
         result = string[n:]
         return result
     else:
+        print("Error! Must be less than the length of the word.")
         return None
 
 # Define original string
+original_string_1 = "Polytechnic"
+original_string_2 = "University"
 
 # Display result
 
