@@ -18,11 +18,11 @@ original_string_2 = "University"
 # Display result of first string
 print("Original word: ", original_string_1)
 
-# Display result of second string
-print("Original word: ", original_string_2)
-
 # Output: technic
 print(remove_chars("Polytechnic", 4))
+
+# Display result of second string
+print("Original word: ", original_string_2)
 
 # Output: versity
 print(remove_chars("University", 3))
